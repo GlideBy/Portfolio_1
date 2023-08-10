@@ -1,0 +1,310 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+}
+
+.navBar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navItem {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.navItem:hover {
+  background-color: #555;
+}
+
+/* Wrapper styles */
+.outerWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.innerWrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+  display: block;
+  align-items: center;
+  padding: 80px 0;
+  height: auto;
+}
+
+.personalImageContainer {
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
+  overflow: hidden;
+  clip-path: inset(0px 55px);
+  justify-content: center;
+}
+
+.personalImageContainer img {
+  max-width: 100%;
+}
+
+.personalDescription {
+  flex: 1;
+}
+
+.greeting {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.socialsResume {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.resumeLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.resumeLink:hover {
+  background-color: #555;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  width: 50px;
+  height: 100px;
+  margin-right: 10px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* Main styles */
+main {
+  margin-top: 40px;
+}
+
+/* Section styles */
+.sectionHead {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionHead span {
+  display: block;
+  font-size: 18px;
+  color: #777;
+}
+
+.sectionHead h2 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.sectionContainer {
+  padding: 40px 0;
+}
+
+/* About section styles */
+.aboutContainer p {
+  margin-bottom: 20px;
+}
+
+/* Skills section styles */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  list-style-type: none;
+}
+
+.skillsGrid li {
+  text-align: center;
+}
+
+.skillsGrid li img {
+  max-width: 100px;
+}
+
+.skillsGrid li p {
+  margin-top: 10px;
+}
+
+/* Work section styles */
+.workBox {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.workBox h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.workBox h4 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.techStack {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.workBox ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.workBox ul li {
+  margin-bottom: 5px;
+}
+
+/* Contact section styles */
+.contactContainer h3 {
+  margin-bottom: 20px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contactTypes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.typeBox {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.typeBox a {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.typeBox a:hover {
+  color: #555;
+}
+
+.contactFormContainer {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.nameInput,
+.emailInput {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.messageInput {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.forSend {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.forSend:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
